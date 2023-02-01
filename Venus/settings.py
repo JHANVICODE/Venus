@@ -78,11 +78,12 @@ WSGI_APPLICATION = 'Venus.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DJANGO_DEPLOYE',
+        'NAME': 'python_anywhere_db',
         'USER': 'postgres',
         'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'HOST': 'visionx-staging.cxx38vej3xlp.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
+
     }
 }
 
