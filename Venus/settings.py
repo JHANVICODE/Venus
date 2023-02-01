@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'python_anywhere_db',
         'USER': 'postgres',
-        'PASSWORD': 'admin',
+        'PASSWORD': 'postgres',
         'HOST': 'visionx-staging.cxx38vej3xlp.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
 
